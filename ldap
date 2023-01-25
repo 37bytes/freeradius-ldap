@@ -157,7 +157,7 @@ ldap {
 
 		#  Filter for group objects, should match all available
 		#  group objects a user might be a member of.
-		filter = "(objectClass=posixGroup)"
+		filter = "(objectClass=group)"
 
 		# Search scope, may be 'base', 'one', sub' or 'children'
 #		scope = 'sub'
